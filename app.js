@@ -1,3 +1,7 @@
+//onKeyUp="return limitar(event,this.value,100)" 
+//onKeyDown="return limitar(event,this.value,100)"
+
+
 function limitar(e, contenido, tam){
   var unicode=e.keyCode? e.keyCode : e.charCode;
   // Permitimos las siguientes teclas:
